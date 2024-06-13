@@ -3,4 +3,4 @@
 from __future__ import unicode_literals
 
 
-from views import MBTI_BP
+from .views import MBTI_BP

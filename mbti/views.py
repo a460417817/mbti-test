@@ -6,7 +6,7 @@ import random
 
 from flask import Blueprint, abort, flash, render_template, request
 
-from utils import get_questions, get_result, get_types_desc
+from .utils import get_questions, get_result, get_types_desc
 
 MBTI_BP = Blueprint('mbti', __name__)
 QUESTIONS = get_questions()
